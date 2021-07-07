@@ -29,5 +29,7 @@ namespace udemyAppAdminEmpleados.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<udemyAppAdminEmpleados.Models.Empleado> Empleadoes { get; set; }
     }
 }
